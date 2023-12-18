@@ -1,0 +1,9 @@
+SELECT 'count of DIRECTOR table' as description, COUNT(*) as COUNT FROM DIRECTOR;
+SELECT 'count of ACTOR table' as description, COUNT(*) as COUNT FROM ACTOR;
+SELECT 'count of CUSTOMER table' as description, COUNT(*) as COUNT FROM CUSTOMER;
+SELECT 'count of PURCHASE table' as description, COUNT(*) as COUNT FROM PURCHASE;
+SELECT 'count of MOVIE table' as description, COUNT(*) as COUNT FROM MOVIE;
+SELECT 'count of REVIEW table' as description, COUNT(*) as COUNT FROM REVIEW;
+SELECT 'count of ACTED table' as description, COUNT(*) as COUNT FROM ACTED;
+SELECT 'count of CUSTOMER_OWNS table' as description, COUNT(*) as COUNT FROM CUSTOMER_OWNS;
+SELECT 'count of MOVIE_PURCHASED table' as description, COUNT(*) as COUNT FROM MOVIE_PURCHASED;
